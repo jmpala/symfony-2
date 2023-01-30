@@ -1,0 +1,3 @@
+<?php // prod.encrypt.public on Mon, 30 Jan 2023 12:54:04 +0100
+
+return "\x9C\xD1y\xA9\x3F\x95fKiZ\x1A~\xB4\xBDw4\x85b\x04\x0E\xA7\x1Bm\x8D\xBDZzS4\x94\x3E_";
