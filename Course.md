@@ -89,10 +89,16 @@
 - php bin/console debug:container --parameters (show all parameters)
 - php bin/console debug:dotenv (environment files & variables information)
 
-## Deplyoment
+## Deployment
 
 1. Get the code from the repository to the server
 2. Install dependencies with composer
 3. Create .env.local file with the environment variables (only when no possibility to store env vars on OS)
 4. run "php bin/console cache:clear"
 5. run "php bin/console cache:warmup"
+
+## Console Commands
+
+- "make" bundle is required
+- We can create a command with "php bin/console make:command" 
+- The "autoconfigure" property in "services.yaml" is responsible for autowiring the command
