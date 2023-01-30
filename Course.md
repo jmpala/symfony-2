@@ -75,6 +75,7 @@
 - We can store secrets in the vault
 - They are safe to store in the repository
 - We need one for each environment, dev&prod
+- 
 
 ## Useful Commands
 
